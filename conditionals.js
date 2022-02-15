@@ -1,13 +1,10 @@
+const hunger = true;
+const food = "not ready";
 
+if(hunger === true && food === "Ready"){
 
-const temperature = 180;
-
-if (temperature < 0) {
-  console.log("Make sure you pick out a scarf!");
-} else if (temperature < 15) {
-  console.log("Short sleeves won't cut it!");
-} else {
-  console.log("Short sleeves are fine.");
+ console.log ("You can eat"); 
 }
-
-console.log("Now you're ready to go outside!");
+else{
+console.log("it is not yet time to eat")
+}
